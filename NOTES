@@ -1,0 +1,39 @@
+How Xslate works
+YAPC::Asia Tokyo 2010 (10/16 10:00-10:40)
+
+This talk desctibes how Xslate works.
+
+Index:
+* What is Xslate
+** Comparison with other templates
+** Security
+*** How to write safe templates
+** Performance
+** Multi-syntaxes
+*** Kolon
+*** TTerse
+*** Clevery
+** Enhancement
+** Xslate in WAF
+* How Xslate works
+** Execution process
+*** Preprocess
+*** Parsing
+**** Top Down Operator Precedence
+*** Compiling
+*** Saving/loading intermediate code
+*** Assembling
+*** Executing
+* Why so fast
+** Profiling the VM
+** Virtual Machine
+*** Direct threaded code
+** HTML-Escaping
+** Preallocation
+* TODO
+** Loop controls
+** Context controls
+** Augment block modifiers
+* Information
+* The End
+
